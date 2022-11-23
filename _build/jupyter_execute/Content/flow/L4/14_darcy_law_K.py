@@ -136,7 +136,7 @@ print("The resulting total energy head is {0:0.2f} m".format(h))
 # The law was formulated by Henry Darcy (Darcy, 1856) based on the results of experiments on the flow
 # of water through beds of sand (Figure below shows a schematic setup). In the experiments, _area of cross section_  ($A$ [L$^2$] $= \text{Const}$) was kept constant. Constant discharge ($Q= \text{Const}$) was applied and the sand medium was fully saturated, i.e., voids between sand grains were completely filled with water.
 # 
-# <img src="images/L4_f3.png" alt="Darcy's Set-up" class="bg-primary" width="400">
+# 
 # 
 # ```{image} images/images/L4_f3.png
 # :width: 400px
@@ -321,8 +321,6 @@ print("The resulting hydraulic Conductivity at 20°C is {0:0.2e} m/s".format(K1)
 # experiment. 
 # 
 # 
-# 
-# 
 # ```{image} images/images/L4_f4.png
 # :width: 200px
 # :align: center
@@ -344,9 +342,7 @@ print("The resulting hydraulic Conductivity at 20°C is {0:0.2e} m/s".format(K1)
 # :align: center
 # :name: Constant-head-Permeameter
 # ```
-# 
-# The
-# hydraulic conductivity can be obtained by observing discharge and heads and then
+# The hydraulic conductivity can be obtained by observing discharge and heads and then
 # substituting in the below formula that is rearranged form of Darcy’s law from:
 # 
 # $$
@@ -643,6 +639,8 @@ v = vs * ne
 print("travel time of water = {} s\nLength = {} m\u00b2\neffective porosity = {} ".format(t, L, ne),"\n")
 print("The linear velocity is {} m/h \nthe pore volume is {} s, and \nthe darcy velocity is {} m/h".format(vs, PV, v))
 
+
+# ## Chapter Quiz
 
 # In[9]:
 

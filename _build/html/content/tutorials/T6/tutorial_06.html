@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>15. Tutorial 6 - Tutorial Problems on Flow in Confined/Unconfined Aquifer &#8212; Groundwater I</title>
+    <title>6. Tutorial 6 - Tutorial Problems on Flow in Confined/Unconfined Aquifer &#8212; Groundwater I</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="../../../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -42,6 +42,7 @@
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
     <script src="../../../_static/togglebutton.js"></script>
+    <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../../../_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
@@ -54,8 +55,8 @@ const thebe_selector_output = ".output, .cell_output"
     <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.20.1/dist/embed-amd.js"></script>
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="16. Tutorial 7 - Wells" href="../T7/tutorial_07.html" />
-    <link rel="prev" title="14. Tutorial 5 - Tutorial problems aquifer heterogeneity/anisotropy" href="../T5/tutorial_05.html" />
+    <link rel="next" title="7. Tutorial 7 - Wells" href="../T7/tutorial_07.html" />
+    <link rel="prev" title="5. Tutorial 5 - Tutorial problems aquifer heterogeneity/anisotropy" href="../T5/tutorial_05.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -140,37 +141,54 @@ const thebe_selector_output = ".output, .cell_output"
 <ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="../../flow/12_subsurface_structure.html">
-   3. Lecture 2 - Subsurface Structure
+   1. Lecture 2 - Subsurface Structure
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../../flow/L3/13_gw_storage.html">
-   4. Lecture 3-  Groundwater as a reservoir
+   2. Lecture 3-  Groundwater as a reservoir
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../../flow/L4/14_darcy_law_K.html">
-   5. Lecture 4 - Darcy’s Law and Conductivity
+   3. Lecture 4 - Darcy’s Law and Conductivity
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../../flow/L5/15_het_iso.html">
-   6. Lecture 5. Aquifer Heterogeneity and Anisotropy
+   4. Lecture 5. Aquifer Heterogeneity and Anisotropy
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../../flow/L6/16_darcy_law_3D.html">
-   7. Lecture 6: Steady-State Groundwater flow in 3D
+   5. Lecture 6: Steady-State Groundwater flow in 3D
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../../flow/L7/17_quantify_flow.html">
-   8. Lecture 07 - Quantifying 3D Groundwater Flow
+   6. Lecture 07 - Quantifying 3D Groundwater Flow
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../../flow/L8/18_wells.html">
-   9. Lecture 08 - Wells*
+   7. Lecture 08 - Wells*
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Transport
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../transport/L9/21_conservative_transport.html">
+   1. Lecture 9-  Conservative Transport
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../transport/L10/22_reactive_transport.html">
+   2. Lecture 10:  Reactive Mass Transport
   </a>
  </li>
 </ul>
@@ -182,47 +200,47 @@ const thebe_selector_output = ".output, .cell_output"
 <ul class="current nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="../../background/01_python.html">
-   10. Python Programming language
+   1. Python Programming language
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../../background/02_jupyter.html">
-   11. JUPYTER Notebook Interface for Python
+   2. JUPYTER Notebook Interface for Python
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../T3/tutorial_03.html">
-   12. Tutorial 3 - Darcy Law and Conductivity
+   3. Tutorial 3 - Darcy Law and Conductivity
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../T4/tutorial_04.html">
-   13. Tutorial 4 - Effective K &amp; Recitation
+   4. Tutorial 4 - Effective K &amp; Recitation
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../T5/tutorial_05.html">
-   14. Tutorial 5 - Tutorial problems aquifer heterogeneity/anisotropy
+   5. Tutorial 5 - Tutorial problems aquifer heterogeneity/anisotropy
   </a>
  </li>
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
-   15. Tutorial 6 - Tutorial Problems on Flow in Confined/Unconfined Aquifer
+   6. Tutorial 6 - Tutorial Problems on Flow in Confined/Unconfined Aquifer
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../T7/tutorial_07.html">
-   16. Tutorial 7 - Wells
+   7. Tutorial 7 - Wells
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../T8/tutorial_08.html">
-   17. Tutorial 8 - Conservative transport
+   8. Tutorial 8 - Conservative transport
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../T9/tutorial_09.html">
-   18. Tutorial 9 - Reactive transport
+   9. Tutorial 9 - Reactive transport
   </a>
  </li>
 </ul>
@@ -234,47 +252,52 @@ const thebe_selector_output = ".output, .cell_output"
 <ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="../../tools/decay.html">
-   19. Simulating Mass Budget
+   1. Simulating Mass Budget
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../../tools/sieve_analysis.html">
-   20. Simulating Seive Analysis
+   2. Simulating Seive Analysis
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../../tools/effective_K.html">
-   21. Simulating Effective hydraulic conductivity
+   3. Simulating Effective hydraulic conductivity
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../../tools/uniform_flow_and_well.html">
-   22. Uniform Flow and Well*
+   4. Uniform Flow and Well*
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../../tools/aniso2D.html">
-   23. Simulating the Anisotropy and flow direction
+   5. Simulating the Anisotropy and flow direction
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../../tools/type_curve_fit.html">
-   24. Type curve and fitting pumping data tool
+   6. Type curve and fitting pumping data tool
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../../tools/1D_advection_dispersion.html">
-   25. Tool for simulating 1D Conservative Transport (Laboratory Column)
+   7. Tool for simulating 1D Conservative Transport (Laboratory Column)
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../../tools/Kinetics_degradation.html">
-   26. Simulating Kinetics and Degradation
+   8. Simulating Kinetics and Degradation
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../../tools/1D_ditchflow.html">
-   27. Simulating 1D Trench Flow*
+   9. Simulating 1D Trench Flow*
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../testcodeer.html">
+   10. Testing the code for run
   </a>
  </li>
 </ul>
@@ -336,7 +359,7 @@ title="Toggle navigation"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="https://mybinder.org/v2/gh/prabhasyadav/iGW-I/main?urlpath=tree/content/tutorials/T6/tutorial_06.ipynb"
+        <a href="https://mybinder.org/v2/gh/prabhasyadav/try1/main?urlpath=tree/content/tutorials/T6/tutorial_06.ipynb"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -350,6 +373,42 @@ title="Launch on Binder"
   </span>
 <span class="headerbtn__text-container">Binder</span>
 </a>
+
+      </li>
+      
+      <li>
+        <a href="https://colab.research.google.com/github/prabhasyadav/try1/blob/main/content/tutorials/T6/tutorial_06.ipynb"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Launch on Colab"
+>
+  
+
+<span class="headerbtn__icon-container">
+  
+    <img src="../../../_static/images/logo_colab.png">
+  </span>
+<span class="headerbtn__text-container">Colab</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="initThebeSBT()"
+  class="headerbtn headerbtn-launch-thebe"
+  data-toggle="tooltip"
+data-placement="left"
+title="Launch Thebe"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-play"></i>
+  </span>
+<span class="headerbtn__text-container">Live Code</span>
+</button>
 
       </li>
       
@@ -379,7 +438,7 @@ title="Fullscreen mode"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="https://github.com/prabhasyadav/iGW-I"
+        <a href="https://github.com/prabhasyadav/try1"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -396,7 +455,7 @@ title="Source repository"
       </li>
       
       <li>
-        <a href="https://github.com/prabhasyadav/iGW-I/issues/new?title=Issue%20on%20page%20%2Fcontent/tutorials/T6/tutorial_06.html&body=Your%20issue%20content%20here."
+        <a href="https://github.com/prabhasyadav/try1/issues/new?title=Issue%20on%20page%20%2Fcontent/tutorials/T6/tutorial_06.html&body=Your%20issue%20content%20here."
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -485,71 +544,71 @@ title="Print to PDF"
         <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#solutions-for-homework-problems-3-4">
-   15.1. Solutions for Homework Problems 3 – 4
+   6.1. Solutions for Homework Problems 3 – 4
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#homework-problem-3">
-     15.1.1. Homework Problem 3
+     6.1.1. Homework Problem 3
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#solution-of-the-homework-problem-3">
-     15.1.2. Solution of the Homework Problem 3
+     6.1.2. Solution of the Homework Problem 3
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#homework-problem-4">
-     15.1.3. Homework Problem 4
+     6.1.3. Homework Problem 4
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#solution-of-homework-problem-4">
-     15.1.4. Solution of Homework Problem 4
+     6.1.4. Solution of Homework Problem 4
     </a>
    </li>
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#tutorial-problems">
-   15.2. Tutorial Problems
+   6.2. Tutorial Problems
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#tutorial-problem-16-flow-in-confined-aquifer">
-     15.2.1. Tutorial Problem 16- flow in confined aquifer
+     6.2.1. Tutorial Problem 16- flow in confined aquifer
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#solution-of-problem-16">
-     15.2.2. Solution of Problem 16
+     6.2.2. Solution of Problem 16
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#tutorial-problem-17-flow-in-unconfined-aquifer">
-     15.2.3. Tutorial Problem 17- flow in unconfined aquifer
+     6.2.3. Tutorial Problem 17- flow in unconfined aquifer
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#solution-tutorial-problem-17">
-     15.2.4. Solution Tutorial Problem 17
+     6.2.4. Solution Tutorial Problem 17
     </a>
    </li>
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#homework-problems-flow-problems">
-   15.3. Homework Problems Flow problems
+   6.3. Homework Problems Flow problems
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#homework-problem-8-confined-aquifer">
-     15.3.1. Homework Problem 8 - confined aquifer
+     6.3.1. Homework Problem 8 - confined aquifer
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#homework-problem-9-unconfined-aquifer">
-     15.3.2. Homework Problem 9 - unconfined aquifer
+     6.3.2. Homework Problem 9 - unconfined aquifer
     </a>
    </li>
   </ul>
@@ -575,71 +634,71 @@ title="Print to PDF"
                             <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#solutions-for-homework-problems-3-4">
-   15.1. Solutions for Homework Problems 3 – 4
+   6.1. Solutions for Homework Problems 3 – 4
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#homework-problem-3">
-     15.1.1. Homework Problem 3
+     6.1.1. Homework Problem 3
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#solution-of-the-homework-problem-3">
-     15.1.2. Solution of the Homework Problem 3
+     6.1.2. Solution of the Homework Problem 3
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#homework-problem-4">
-     15.1.3. Homework Problem 4
+     6.1.3. Homework Problem 4
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#solution-of-homework-problem-4">
-     15.1.4. Solution of Homework Problem 4
+     6.1.4. Solution of Homework Problem 4
     </a>
    </li>
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#tutorial-problems">
-   15.2. Tutorial Problems
+   6.2. Tutorial Problems
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#tutorial-problem-16-flow-in-confined-aquifer">
-     15.2.1. Tutorial Problem 16- flow in confined aquifer
+     6.2.1. Tutorial Problem 16- flow in confined aquifer
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#solution-of-problem-16">
-     15.2.2. Solution of Problem 16
+     6.2.2. Solution of Problem 16
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#tutorial-problem-17-flow-in-unconfined-aquifer">
-     15.2.3. Tutorial Problem 17- flow in unconfined aquifer
+     6.2.3. Tutorial Problem 17- flow in unconfined aquifer
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#solution-tutorial-problem-17">
-     15.2.4. Solution Tutorial Problem 17
+     6.2.4. Solution Tutorial Problem 17
     </a>
    </li>
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#homework-problems-flow-problems">
-   15.3. Homework Problems Flow problems
+   6.3. Homework Problems Flow problems
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#homework-problem-8-confined-aquifer">
-     15.3.1. Homework Problem 8 - confined aquifer
+     6.3.1. Homework Problem 8 - confined aquifer
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#homework-problem-9-unconfined-aquifer">
-     15.3.2. Homework Problem 9 - unconfined aquifer
+     6.3.2. Homework Problem 9 - unconfined aquifer
     </a>
    </li>
   </ul>
@@ -654,7 +713,7 @@ title="Print to PDF"
                 
               <div>
                 
-  <div class="cell docutils container">
+  <div class="cell tag_remove-output docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
@@ -665,409 +724,18 @@ title="Print to PDF"
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<script type="application/javascript">
-(function(root) {
-  function now() {
-    return new Date();
-  }
-
-  var force = true;
-
-  if (typeof root._bokeh_onload_callbacks === "undefined" || force === true) {
-    root._bokeh_onload_callbacks = [];
-    root._bokeh_is_loading = undefined;
-  }
-
-  if (typeof (root._bokeh_timeout) === "undefined" || force === true) {
-    root._bokeh_timeout = Date.now() + 5000;
-    root._bokeh_failed_load = false;
-  }
-
-  function run_callbacks() {
-    try {
-      root._bokeh_onload_callbacks.forEach(function(callback) {
-        if (callback != null)
-          callback();
-      });
-    } finally {
-      delete root._bokeh_onload_callbacks
-    }
-    console.debug("Bokeh: all callbacks have finished");
-  }
-
-  function load_libs(css_urls, js_urls, callback) {
-    if (css_urls == null) css_urls = [];
-    if (js_urls == null) js_urls = [];
-
-    root._bokeh_onload_callbacks.push(callback);
-    if (root._bokeh_is_loading > 0) {
-      console.debug("Bokeh: BokehJS is being loaded, scheduling callback at", now());
-      return null;
-    }
-    if (js_urls == null || js_urls.length === 0) {
-      run_callbacks();
-      return null;
-    }
-    console.debug("Bokeh: BokehJS not loaded, scheduling load and callback at", now());
-    root._bokeh_is_loading = css_urls.length + js_urls.length;
-
-    function on_load() {
-      root._bokeh_is_loading--;
-      if (root._bokeh_is_loading === 0) {
-        console.debug("Bokeh: all BokehJS libraries/stylesheets loaded");
-        run_callbacks()
-      }
-    }
-
-    function on_error() {
-      console.error("failed to load " + url);
-    }
-
-    for (var i = 0; i < css_urls.length; i++) {
-      var url = css_urls[i];
-      const element = document.createElement("link");
-      element.onload = on_load;
-      element.onerror = on_error;
-      element.rel = "stylesheet";
-      element.type = "text/css";
-      element.href = url;
-      console.debug("Bokeh: injecting link tag for BokehJS stylesheet: ", url);
-      document.body.appendChild(element);
-    }
-
-    var skip = [];
-    if (window.requirejs) {
-      window.requirejs.config({'paths': {'katex': 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min', 'autoLoad': 'https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/contrib/auto-render.min'}});
-      window.requirejs.config({'paths': {'mathjax': '//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_HTML'}, 'shim': {'mathjax': {'exports': 'MathJax'}}});
-      require(["katex", "autoLoad"], function(katex,renderMathInElement,) {
-        window.katex = katex;
-        window.renderMathInElement = renderMathInElement;
-      })
-    }
-    if (((window['katex'] !== undefined) && (!(window['katex'] instanceof HTMLElement))) || window.requirejs) {
-      var urls = ['https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.js'];
-      for (var i = 0; i < urls.length; i++) {
-        skip.push(urls[i])
-      }
-    }
-    if (((window['renderMathInElement'] !== undefined) && (!(window['renderMathInElement'] instanceof HTMLElement))) || window.requirejs) {
-      var urls = ['https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/contrib/auto-render.min.js'];
-      for (var i = 0; i < urls.length; i++) {
-        skip.push(urls[i])
-      }
-    }
-    if (((window['MathJax'] !== undefined) && (!(window['MathJax'] instanceof HTMLElement))) || window.requirejs) {
-      var urls = ['https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML'];
-      for (var i = 0; i < urls.length; i++) {
-        skip.push(urls[i])
-      }
-    }
-    for (var i = 0; i < js_urls.length; i++) {
-      var url = js_urls[i];
-      if (skip.indexOf(url) >= 0) { on_load(); continue; }
-      var element = document.createElement('script');
-      element.onload = on_load;
-      element.onerror = on_error;
-      element.async = false;
-      element.src = url;
-      console.debug("Bokeh: injecting script tag for BokehJS library: ", url);
-      document.head.appendChild(element);
-    }
-	if (!js_urls.length) {
-      on_load()
-    }
-  };
-
-  function inject_raw_css(css) {
-    const element = document.createElement("style");
-    element.appendChild(document.createTextNode(css));
-    document.body.appendChild(element);
-  }
-
-  var js_urls = ["https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.js", "https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/contrib/auto-render.min.js", "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML", "https://cdn.bokeh.org/bokeh/release/bokeh-2.2.3.min.js", "https://cdn.bokeh.org/bokeh/release/bokeh-widgets-2.2.3.min.js", "https://cdn.bokeh.org/bokeh/release/bokeh-tables-2.2.3.min.js", "https://unpkg.com/@holoviz/panel@^0.10.1/dist/panel.min.js"];
-  var css_urls = ["https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css"];
-
-  var inline_js = [
-    function(Bokeh) {
-      Bokeh.set_log_level("info");
-    },
-    function(Bokeh) {} // ensure no trailing comma for IE
-  ];
-
-  function run_inline_js() {
-    if ((root.Bokeh !== undefined) || (force === true)) {
-      for (var i = 0; i < inline_js.length; i++) {
-        inline_js[i].call(root, root.Bokeh);
-      }} else if (Date.now() < root._bokeh_timeout) {
-      setTimeout(run_inline_js, 100);
-    } else if (!root._bokeh_failed_load) {
-      console.log("Bokeh: BokehJS failed to load within specified timeout.");
-      root._bokeh_failed_load = true;
-    }
-  }
-
-  if (root._bokeh_is_loading === 0) {
-    console.debug("Bokeh: BokehJS loaded, going straight to plotting");
-    run_inline_js();
-  } else {
-    load_libs(css_urls, js_urls, function() {
-      console.debug("Bokeh: BokehJS plotting callback run at", now());
-      run_inline_js();
-    });
-  }
-}(window));</script><script type="application/javascript">
-if ((window.PyViz === undefined) || (window.PyViz instanceof HTMLElement)) {
-  window.PyViz = {comms: {}, comm_status:{}, kernels:{}, receivers: {}, plot_index: []}
-}
-
-
-    function JupyterCommManager() {
-    }
-
-    JupyterCommManager.prototype.register_target = function(plot_id, comm_id, msg_handler) {
-      if (window.comm_manager || ((window.Jupyter !== undefined) && (Jupyter.notebook.kernel != null))) {
-        var comm_manager = window.comm_manager || Jupyter.notebook.kernel.comm_manager;
-        comm_manager.register_target(comm_id, function(comm) {
-          comm.on_msg(msg_handler);
-        });
-      } else if ((plot_id in window.PyViz.kernels) && (window.PyViz.kernels[plot_id])) {
-        window.PyViz.kernels[plot_id].registerCommTarget(comm_id, function(comm) {
-          comm.onMsg = msg_handler;
-        });
-      } else if (typeof google != 'undefined' && google.colab.kernel != null) {
-        google.colab.kernel.comms.registerTarget(comm_id, (comm) => {
-          var messages = comm.messages[Symbol.asyncIterator]();
-          function processIteratorResult(result) {
-            var message = result.value;
-            console.log(message)
-            var content = {data: message.data, comm_id};
-            var buffers = []
-            for (var buffer of message.buffers || []) {
-              buffers.push(new DataView(buffer))
-            }
-            var metadata = message.metadata || {};
-            var msg = {content, buffers, metadata}
-            msg_handler(msg);
-            return messages.next().then(processIteratorResult);
-          }
-          return messages.next().then(processIteratorResult);
-        })
-      }
-    }
-
-    JupyterCommManager.prototype.get_client_comm = function(plot_id, comm_id, msg_handler) {
-      if (comm_id in window.PyViz.comms) {
-        return window.PyViz.comms[comm_id];
-      } else if (window.comm_manager || ((window.Jupyter !== undefined) && (Jupyter.notebook.kernel != null))) {
-        var comm_manager = window.comm_manager || Jupyter.notebook.kernel.comm_manager;
-        var comm = comm_manager.new_comm(comm_id, {}, {}, {}, comm_id);
-        if (msg_handler) {
-          comm.on_msg(msg_handler);
-        }
-      } else if ((plot_id in window.PyViz.kernels) && (window.PyViz.kernels[plot_id])) {
-        var comm = window.PyViz.kernels[plot_id].connectToComm(comm_id);
-        comm.open();
-        if (msg_handler) {
-          comm.onMsg = msg_handler;
-        }
-      } else if (typeof google != 'undefined' && google.colab.kernel != null) {
-        var comm_promise = google.colab.kernel.comms.open(comm_id)
-        comm_promise.then((comm) => {
-          window.PyViz.comms[comm_id] = comm;
-          if (msg_handler) {
-            var messages = comm.messages[Symbol.asyncIterator]();
-            function processIteratorResult(result) {
-              var message = result.value;
-              var content = {data: message.data};
-              var metadata = message.metadata || {comm_id};
-              var msg = {content, metadata}
-              msg_handler(msg);
-              return messages.next().then(processIteratorResult);
-            }
-            return messages.next().then(processIteratorResult);
-          }
-        }) 
-        var sendClosure = (data, metadata, buffers, disposeOnDone) => {
-          return comm_promise.then((comm) => {
-            comm.send(data, metadata, buffers, disposeOnDone);
-          });
-        };
-        var comm = {
-          send: sendClosure
-        };
-      }
-      window.PyViz.comms[comm_id] = comm;
-      return comm;
-    }
-    window.PyViz.comm_manager = new JupyterCommManager();
-    
-
-
-var JS_MIME_TYPE = 'application/javascript';
-var HTML_MIME_TYPE = 'text/html';
-var EXEC_MIME_TYPE = 'application/vnd.holoviews_exec.v0+json';
-var CLASS_NAME = 'output';
-
-/**
- * Render data to the DOM node
- */
-function render(props, node) {
-  var div = document.createElement("div");
-  var script = document.createElement("script");
-  node.appendChild(div);
-  node.appendChild(script);
-}
-
-/**
- * Handle when a new output is added
- */
-function handle_add_output(event, handle) {
-  var output_area = handle.output_area;
-  var output = handle.output;
-  if ((output.data == undefined) || (!output.data.hasOwnProperty(EXEC_MIME_TYPE))) {
-    return
-  }
-  var id = output.metadata[EXEC_MIME_TYPE]["id"];
-  var toinsert = output_area.element.find("." + CLASS_NAME.split(' ')[0]);
-  if (id !== undefined) {
-    var nchildren = toinsert.length;
-    var html_node = toinsert[nchildren-1].children[0];
-    html_node.innerHTML = output.data[HTML_MIME_TYPE];
-    var scripts = [];
-    var nodelist = html_node.querySelectorAll("script");
-    for (var i in nodelist) {
-      if (nodelist.hasOwnProperty(i)) {
-        scripts.push(nodelist[i])
-      }
-    }
-
-    scripts.forEach( function (oldScript) {
-      var newScript = document.createElement("script");
-      var attrs = [];
-      var nodemap = oldScript.attributes;
-      for (var j in nodemap) {
-        if (nodemap.hasOwnProperty(j)) {
-          attrs.push(nodemap[j])
-        }
-      }
-      attrs.forEach(function(attr) { newScript.setAttribute(attr.name, attr.value) });
-      newScript.appendChild(document.createTextNode(oldScript.innerHTML));
-      oldScript.parentNode.replaceChild(newScript, oldScript);
-    });
-    if (JS_MIME_TYPE in output.data) {
-      toinsert[nchildren-1].children[1].textContent = output.data[JS_MIME_TYPE];
-    }
-    output_area._hv_plot_id = id;
-    if ((window.Bokeh !== undefined) && (id in Bokeh.index)) {
-      window.PyViz.plot_index[id] = Bokeh.index[id];
-    } else {
-      window.PyViz.plot_index[id] = null;
-    }
-  } else if (output.metadata[EXEC_MIME_TYPE]["server_id"] !== undefined) {
-    var bk_div = document.createElement("div");
-    bk_div.innerHTML = output.data[HTML_MIME_TYPE];
-    var script_attrs = bk_div.children[0].attributes;
-    for (var i = 0; i < script_attrs.length; i++) {
-      toinsert[toinsert.length - 1].childNodes[1].setAttribute(script_attrs[i].name, script_attrs[i].value);
-    }
-    // store reference to server id on output_area
-    output_area._bokeh_server_id = output.metadata[EXEC_MIME_TYPE]["server_id"];
-  }
-}
-
-/**
- * Handle when an output is cleared or removed
- */
-function handle_clear_output(event, handle) {
-  var id = handle.cell.output_area._hv_plot_id;
-  var server_id = handle.cell.output_area._bokeh_server_id;
-  if (((id === undefined) || !(id in PyViz.plot_index)) && (server_id !== undefined)) { return; }
-  var comm = window.PyViz.comm_manager.get_client_comm("hv-extension-comm", "hv-extension-comm", function () {});
-  if (server_id !== null) {
-    comm.send({event_type: 'server_delete', 'id': server_id});
-    return;
-  } else if (comm !== null) {
-    comm.send({event_type: 'delete', 'id': id});
-  }
-  delete PyViz.plot_index[id];
-  if ((window.Bokeh !== undefined) & (id in window.Bokeh.index)) {
-    var doc = window.Bokeh.index[id].model.document
-    doc.clear();
-    const i = window.Bokeh.documents.indexOf(doc);
-    if (i > -1) {
-      window.Bokeh.documents.splice(i, 1);
-    }
-  }
-}
-
-/**
- * Handle kernel restart event
- */
-function handle_kernel_cleanup(event, handle) {
-  delete PyViz.comms["hv-extension-comm"];
-  window.PyViz.plot_index = {}
-}
-
-/**
- * Handle update_display_data messages
- */
-function handle_update_output(event, handle) {
-  handle_clear_output(event, {cell: {output_area: handle.output_area}})
-  handle_add_output(event, handle)
-}
-
-function register_renderer(events, OutputArea) {
-  function append_mime(data, metadata, element) {
-    // create a DOM node to render to
-    var toinsert = this.create_output_subarea(
-    metadata,
-    CLASS_NAME,
-    EXEC_MIME_TYPE
-    );
-    this.keyboard_manager.register_events(toinsert);
-    // Render to node
-    var props = {data: data, metadata: metadata[EXEC_MIME_TYPE]};
-    render(props, toinsert[0]);
-    element.append(toinsert);
-    return toinsert
-  }
-
-  events.on('output_added.OutputArea', handle_add_output);
-  events.on('output_updated.OutputArea', handle_update_output);
-  events.on('clear_output.CodeCell', handle_clear_output);
-  events.on('delete.Cell', handle_clear_output);
-  events.on('kernel_ready.Kernel', handle_kernel_cleanup);
-
-  OutputArea.prototype.register_mime_type(EXEC_MIME_TYPE, append_mime, {
-    safe: true,
-    index: 0
-  });
-}
-
-if (window.Jupyter !== undefined) {
-  try {
-    var events = require('base/js/events');
-    var OutputArea = require('notebook/js/outputarea').OutputArea;
-    if (OutputArea.prototype.mime_types().indexOf(EXEC_MIME_TYPE) == -1) {
-      register_renderer(events, OutputArea);
-    }
-  } catch(err) {
-  }
-}
-</script></div>
 </div>
 <section class="tex2jax_ignore mathjax_ignore" id="tutorial-6-tutorial-problems-on-flow-in-confined-unconfined-aquifer">
-<h1><span class="section-number">15. </span>Tutorial 6 - Tutorial Problems on Flow in Confined/Unconfined Aquifer<a class="headerlink" href="#tutorial-6-tutorial-problems-on-flow-in-confined-unconfined-aquifer" title="Permalink to this headline">#</a></h1>
+<h1><span class="section-number">6. </span>Tutorial 6 - Tutorial Problems on Flow in Confined/Unconfined Aquifer<a class="headerlink" href="#tutorial-6-tutorial-problems-on-flow-in-confined-unconfined-aquifer" title="Permalink to this headline">#</a></h1>
 <ul class="simple">
 <li><p><strong>solutions for homework problems 3 – 4</strong></p></li>
 <li><p><strong>tutorial problems on flow in confined and unconfined aquifers</strong></p></li>
 <li><p><strong>homework problems on flow in confined and unconfined aquifers</strong></p></li>
 </ul>
 <section id="solutions-for-homework-problems-3-4">
-<h2><span class="section-number">15.1. </span>Solutions for Homework Problems 3 – 4<a class="headerlink" href="#solutions-for-homework-problems-3-4" title="Permalink to this headline">#</a></h2>
+<h2><span class="section-number">6.1. </span>Solutions for Homework Problems 3 – 4<a class="headerlink" href="#solutions-for-homework-problems-3-4" title="Permalink to this headline">#</a></h2>
 <section id="homework-problem-3">
-<h3><span class="section-number">15.1.1. </span>Homework Problem 3<a class="headerlink" href="#homework-problem-3" title="Permalink to this headline">#</a></h3>
+<h3><span class="section-number">6.1.1. </span>Homework Problem 3<a class="headerlink" href="#homework-problem-3" title="Permalink to this headline">#</a></h3>
 <div class="cell tag_hide-input docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#</span>
@@ -1123,7 +791,7 @@ if (root.Bokeh !== undefined) {
 </div>
 </section>
 <section id="solution-of-the-homework-problem-3">
-<h3><span class="section-number">15.1.2. </span>Solution of the Homework Problem 3<a class="headerlink" href="#solution-of-the-homework-problem-3" title="Permalink to this headline">#</a></h3>
+<h3><span class="section-number">6.1.2. </span>Solution of the Homework Problem 3<a class="headerlink" href="#solution-of-the-homework-problem-3" title="Permalink to this headline">#</a></h3>
 <div class="cell tag_hide-input docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#</span>
@@ -1279,7 +947,7 @@ The conductivity of the column is:4.25e-03 m/s
 </div>
 </section>
 <section id="homework-problem-4">
-<h3><span class="section-number">15.1.3. </span>Homework Problem 4<a class="headerlink" href="#homework-problem-4" title="Permalink to this headline">#</a></h3>
+<h3><span class="section-number">6.1.3. </span>Homework Problem 4<a class="headerlink" href="#homework-problem-4" title="Permalink to this headline">#</a></h3>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># given data - you may change the number</span>
@@ -1395,7 +1063,7 @@ The conductivity of the column is:4.25e-03 m/s
 </div>
 </section>
 <section id="solution-of-homework-problem-4">
-<h3><span class="section-number">15.1.4. </span>Solution of Homework Problem 4<a class="headerlink" href="#solution-of-homework-problem-4" title="Permalink to this headline">#</a></h3>
+<h3><span class="section-number">6.1.4. </span>Solution of Homework Problem 4<a class="headerlink" href="#solution-of-homework-problem-4" title="Permalink to this headline">#</a></h3>
 <div class="cell tag_hide-input docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#</span>
@@ -1562,9 +1230,9 @@ The permeability of the media in Darcy&#39;s unit is: 5.13 D
 </section>
 </section>
 <section id="tutorial-problems">
-<h2><span class="section-number">15.2. </span>Tutorial Problems<a class="headerlink" href="#tutorial-problems" title="Permalink to this headline">#</a></h2>
+<h2><span class="section-number">6.2. </span>Tutorial Problems<a class="headerlink" href="#tutorial-problems" title="Permalink to this headline">#</a></h2>
 <section id="tutorial-problem-16-flow-in-confined-aquifer">
-<h3><span class="section-number">15.2.1. </span>Tutorial Problem 16- flow in confined aquifer<a class="headerlink" href="#tutorial-problem-16-flow-in-confined-aquifer" title="Permalink to this headline">#</a></h3>
+<h3><span class="section-number">6.2.1. </span>Tutorial Problem 16- flow in confined aquifer<a class="headerlink" href="#tutorial-problem-16-flow-in-confined-aquifer" title="Permalink to this headline">#</a></h3>
 <div class="cell tag_hide-input docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#</span>
@@ -1626,7 +1294,7 @@ The permeability of the media in Darcy&#39;s unit is: 5.13 D
 </div>
 </section>
 <section id="solution-of-problem-16">
-<h3><span class="section-number">15.2.2. </span>Solution of Problem 16<a class="headerlink" href="#solution-of-problem-16" title="Permalink to this headline">#</a></h3>
+<h3><span class="section-number">6.2.2. </span>Solution of Problem 16<a class="headerlink" href="#solution-of-problem-16" title="Permalink to this headline">#</a></h3>
 <div class="cell tag_hide-input docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># solution</span>
@@ -1729,7 +1397,7 @@ The head at 0.5 Km from well 1 is : 85.00 m
 </div>
 </section>
 <section id="tutorial-problem-17-flow-in-unconfined-aquifer">
-<h3><span class="section-number">15.2.3. </span>Tutorial Problem 17- flow in unconfined aquifer<a class="headerlink" href="#tutorial-problem-17-flow-in-unconfined-aquifer" title="Permalink to this headline">#</a></h3>
+<h3><span class="section-number">6.2.3. </span>Tutorial Problem 17- flow in unconfined aquifer<a class="headerlink" href="#tutorial-problem-17-flow-in-unconfined-aquifer" title="Permalink to this headline">#</a></h3>
 <div class="cell tag_hide-input docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#</span>
@@ -1781,7 +1449,7 @@ The head at 0.5 Km from well 1 is : 85.00 m
 </div>
 </section>
 <section id="solution-tutorial-problem-17">
-<h3><span class="section-number">15.2.4. </span>Solution Tutorial Problem 17<a class="headerlink" href="#solution-tutorial-problem-17" title="Permalink to this headline">#</a></h3>
+<h3><span class="section-number">6.2.4. </span>Solution Tutorial Problem 17<a class="headerlink" href="#solution-tutorial-problem-17" title="Permalink to this headline">#</a></h3>
 <div class="cell tag_hide-input docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#</span>
@@ -1889,11 +1557,11 @@ Conductivity: 0.00050 m³/s
 </section>
 </section>
 <section id="homework-problems-flow-problems">
-<h2><span class="section-number">15.3. </span>Homework Problems Flow problems<a class="headerlink" href="#homework-problems-flow-problems" title="Permalink to this headline">#</a></h2>
+<h2><span class="section-number">6.3. </span>Homework Problems Flow problems<a class="headerlink" href="#homework-problems-flow-problems" title="Permalink to this headline">#</a></h2>
 <p>These problems will require you to make some research. I will suggest that you check the <strong>Groundwater</strong> book by <strong>R. Allan Freeze</strong> and <strong>John A. Cherry</strong>. The book is now freely available at <a class="reference external" href="https://gw-project.org/books/groundwater/">https://gw-project.org/books/groundwater/</a></p>
 <p><strong>There is no-obligation to submit the homework problems</strong></p>
 <section id="homework-problem-8-confined-aquifer">
-<h3><span class="section-number">15.3.1. </span>Homework Problem 8 - confined aquifer<a class="headerlink" href="#homework-problem-8-confined-aquifer" title="Permalink to this headline">#</a></h3>
+<h3><span class="section-number">6.3.1. </span>Homework Problem 8 - confined aquifer<a class="headerlink" href="#homework-problem-8-confined-aquifer" title="Permalink to this headline">#</a></h3>
 <div class="cell tag_hide-input docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#</span>
@@ -1945,7 +1613,7 @@ Conductivity: 0.00050 m³/s
 </div>
 </section>
 <section id="homework-problem-9-unconfined-aquifer">
-<h3><span class="section-number">15.3.2. </span>Homework Problem 9 - unconfined aquifer<a class="headerlink" href="#homework-problem-9-unconfined-aquifer" title="Permalink to this headline">#</a></h3>
+<h3><span class="section-number">6.3.2. </span>Homework Problem 9 - unconfined aquifer<a class="headerlink" href="#homework-problem-9-unconfined-aquifer" title="Permalink to this headline">#</a></h3>
 <div class="cell tag_hide-input docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#</span>
@@ -2007,8 +1675,8 @@ Conductivity: 0.00050 m³/s
     {
         requestKernel: true,
         binderOptions: {
-            repo: "binder-examples/jupyter-stacks-datascience",
-            ref: "master",
+            repo: "prabhasyadav/try1",
+            ref: "main",
         },
         codeMirrorConfig: {
             theme: "abcdef",
@@ -2034,13 +1702,13 @@ Conductivity: 0.00050 m³/s
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title"><span class="section-number">14. </span>Tutorial 5 - Tutorial problems aquifer heterogeneity/anisotropy</p>
+            <p class="prev-next-title"><span class="section-number">5. </span>Tutorial 5 - Tutorial problems aquifer heterogeneity/anisotropy</p>
         </div>
     </a>
     <a class='right-next' id="next-link" href="../T7/tutorial_07.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title"><span class="section-number">16. </span>Tutorial 7 - Wells</p>
+        <p class="prev-next-title"><span class="section-number">7. </span>Tutorial 7 - Wells</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>
